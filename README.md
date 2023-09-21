@@ -1,5 +1,9 @@
 ## beego-requestid
 
+### Introduction
+
+This is RequestId middleware for Beego Framework , It allows you to customize the way to obtain RequestId and generate RequestId.
+
 ### Example
 
 ```go
@@ -14,10 +18,6 @@ import (
 	"github.com/beego/beego/context"
 	beego_requestid "github.com/ibarryyan/beego-requestid"
 )
-
-func main() {
-	example2()
-}
 
 func example1() {
 	beego.InsertFilter("/*", beego.BeforeRouter, beego_requestid.NewFilter())
@@ -58,5 +58,10 @@ func example2() {
 
 ```
 
+### LICENSE
 
-### Other   
+MIT LICENSE
+
+---
+
+Thanks for your star ~
