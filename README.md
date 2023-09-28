@@ -4,6 +4,12 @@
 
 This is RequestId middleware for Beego Framework , It allows you to customize the way to obtain RequestId and generate RequestId.
 
+### Download
+
+```shell
+go get -u github.com/ibarryyan/beego-requestid
+```
+
 ### Example
 
 ```go
